@@ -28,7 +28,7 @@
     flex: 1 0 auto;
     position: relative;
 }
-.block {
+.main__items {
     box-shadow: 0px 0px 200px rgb(0, 3, 5);
     border-radius: 20px;
     background-color: rgb(55, 112, 177);
@@ -42,23 +42,23 @@
 	margin: auto;
     border: 8px double rgb(92, 82, 82);
 }
-.bhead { 
+.main__head { 
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
 }
-.gov {
+.country {
     font-size: 30px;
     color: rgba(248, 195, 20, 0.788);
 }
-.bbody{
+.main__body {
     background-image: url(/pic/sun.png);
     height: 100%;
     background-repeat: no-repeat;
     margin: 25px;
 }
-.bfoot{
+.main__footer {
     width: 100%;
     height: 40px;
     background-color: rgba(155, 177, 209, 0.979);
@@ -69,13 +69,13 @@
     text-align: center;
     padding-top: 10px;
 }
-.rbut {
+.right__but {
     background-color: #2731b4;
     color: white;
     border-radius: 50%;
     padding: 8px 16px;
 }
-.lbut {
+.left__but {
     background-color: #2731b4;
     color: white;
     border-radius: 50%;
