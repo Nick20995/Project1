@@ -10,16 +10,22 @@
     width: 100%;
     background-attachment: fixed;
     height: 1200px;
-    background-image: url(/pic/obl1.jpg);
+    /* background-image: url(/pic/obl1.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
 }
+.wrapper__clouds {
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
 .tittle {
     font-size: 30px;
-    padding-top:100px;
+    padding-top: 100px;
     height: 100px;
     text-align: center;
     flex: 1 1 auto;
@@ -52,10 +58,7 @@
     color: rgba(248, 195, 20, 0.788);
 }
 .main__body {
-    background-image: url(/pic/sun.png);
-    height: 100%;
-    background-repeat: no-repeat;
-    margin: 25px;
+    margin-left: 25px;
 }
 .main__footer {
     width: 100%;
